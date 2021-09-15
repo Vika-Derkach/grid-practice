@@ -363,3 +363,20 @@ ul {
   font-size: 80px;
   mix-blend-mode: overlay;
 }
+.ellipse img {
+  clip-path: ellipse(200px 200px at 100px 100px);
+}
+.circ img {
+  clip-path: circle(30%);
+}
+.poligon img {
+  clip-path: polygon(
+    5% 5%,
+    100% 10%,
+    900% 75%,
+    75% 75%,
+    75% 100%,
+    60% 75%,
+    20% 80%
+  );
+}
