@@ -348,3 +348,18 @@ ul {
     top: 0px;
   }
 }
+.blend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+}
+.blend img {
+  position: absolute;
+  width: 100%;
+}
+.blend h1 {
+  font-size: 80px;
+  mix-blend-mode: overlay;
+}
