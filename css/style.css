@@ -265,3 +265,15 @@ ul {
     /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
   }
 }
+.paralax {
+  background: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0,176,3008,1654&wid=4000&hei=2200&scl=0.752")
+    center no-repeat;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content-paralax {
+  height: 100px;
+  background-color: #794f45;
+  font-size: 40px;
+}
